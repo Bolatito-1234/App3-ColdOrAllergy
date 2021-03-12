@@ -132,10 +132,36 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	</div>
 </div>	
-
-<div class="page" id="four">
+	
+	<div class="page" id="four">
 	<div class="w3-container w3-flat-carrot">
 		<h1>Question 4</h1>
+	</div>
+	
+	<div id="content" class="w3-container">
+	<p>Is your mucus clear or watery?</p>
+	<a href="#five" onclick="allergyAdd();" class="w3-btn w3-grey w3-round"> Yes </a>
+	<a href="#five" onclick="coldAdd();" class="w3-btn w3-grey w3-round"> No </a>
+
+	</div>
+</div>	
+	
+	<div class="page" id="five">
+	<div class="w3-container w3-flat-carrot">
+		<h1>Question 5</h1>
+	</div>
+	
+	<div id="content" class="w3-container">
+	<p>Have you had the sniffles for more than a week?</p>
+	<a href="#six" onclick="allergyAdd();" class="w3-btn w3-grey w3-round"> Yes </a>
+	<a href="#six" onclick="coldAdd();" class="w3-btn w3-grey w3-round"> No </a>
+
+	</div>
+</div>	
+
+<div class="page" id="six">
+	<div class="w3-container w3-flat-carrot">
+		<h1>Question 6</h1>
 	</div>
 	
 	<div id="content" class="w3-container">
@@ -153,6 +179,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	
 	<div id="content" class="w3-container">
 		<p id="results"></p>
+		<p>Here are your results!</p>
 		<a onclick="resultscalculator();" class="w3-btn w3-grey w3-round"> Results </a>
 
 	</div>
