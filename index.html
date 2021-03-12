@@ -55,8 +55,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	
 	function resultscalculator(){
 		var resultText = document.getElementById("results");
-		allergyPercent = allergy_count / 6 * 100;
-		coldPercent = cold_count / 6 * 100;
+		allergyPercent = allergy_count / 4 * 100;
+		coldPercent = cold_count / 4 * 100;
 		resultText.innerHTML = "Probability it is allergies =" + allergyPercent + "<br> Probability it is a cold =" + coldPercent; 
         }
 	
@@ -150,8 +150,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<div id="content" class="w3-container">
 		<p>Are your symptoms seasonal or chronic?</p>
 		
-		 <a href="resultspage" onclick="allergyAdd();” class="w3-btn w3-grey w3-round"> Yes </a>
-		<a href="resultspage" onclick="coldAdd();" class="w3-btn w3-grey w3-round"> No </a>
+		 <a href="#resultspage" onclick="allergyAdd();” class="w3-btn w3-grey w3-round"> Yes </a>
+		<a href="#resultspage" onclick="coldAdd();" class="w3-btn w3-grey w3-round"> No </a>
 	</div>
 </div>	
 
